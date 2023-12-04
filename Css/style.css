@@ -1,0 +1,351 @@
+.logo img{
+    height: 45px;
+    width: 125px;
+    margin-top: 7px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 3.5rem;
+}
+
+/* colom search */
+.searching {
+    display: flex;
+    
+    align-items: center;
+
+  }
+  
+.search-form {
+    display: flex;
+  }
+  
+.search-input {
+
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+.search-button {
+    padding: 8px 12px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #777171;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+}
+/* end search */
+
+
+.user-profile{
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.user-profile img{
+    overflow: hidden;
+}
+
+.logo-wrapper{
+    display: flex;
+}
+
+.navbar-wrapper{
+    display: flex;
+   
+}
+nav ul li{
+    text-decoration: none;
+
+}
+/* end search */
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.hero-left img{
+    height: 780px;
+    width: 810px;
+    margin-left: 13rem;
+}
+
+
+/* aside */
+.l-i img{
+    height: 80px;
+    width: 150px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero-right h1{
+    text-align: center;
+}
+
+.hero-right p{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+table{
+    text-align: left;
+    margin-left: 80px;
+}
+
+.hero-right{
+    width: 400px;
+    height: 470px;
+    float: right;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 10px;
+    transform: translateX(20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    position: relative;
+    top: -630px;
+    margin-right: 9rem;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.visi-misi{
+   background-color: #f2f2f2; 
+   border: 1px solid #ddd;
+   padding: 1rem;
+   text-align: center;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+   border-radius: 25px;
+   margin-left: 500px;
+}
+/* product */
+button{
+    padding: 5px;
+    color: #fffcf7;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.men-one{
+    background-color: #f3f2f2;
+    margin-right: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+}
+
+.men-one button{
+    font-size: 20px;
+    margin: 12px;
+}
+
+.grid-3{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 1px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.product-wrapper{
+    padding-top: 1rem;
+}
+
+.T-shirt-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.shoes-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.jacket-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.bag-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.sock-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.slopper-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.slopper-info{
+    background-color: #cecccc;
+    border-radius: 0px 0px 2rem 2rem;
+}
+
+.sock-product{
+    width: 34rem;
+}
+
+.slopper-product{
+    width: 34rem;
+}
+
+.bag-product
+.sock-product{
+    margin-top: 900px;
+}
+
+#product-main {
+    margin-top: 20rem;
+    margin-left: 150px;
+}
+
+.Men-title{
+    text-align: center;
+}
+
+/* contact */
+#contact{
+    padding: 6rem 0;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1px));
+    gap: 3rem;
+}
+
+.contact-form div{
+    margin-bottom: 1.4rem;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    background: #fbfbfb;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    resize: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color: black;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border: 1px solid rgb(9, 5, 7);
+}
+
+.btn-submit{
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-submit:hover{
+    background-color: black;
+}
+
+.contact-item-icon{
+    background: #f5f3fe;
+    width: 53px;
+    height: 53px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item-icon svg{
+    fill: black
+}
+
+.contact-item-detail h4{
+    margin-bottom: 0.6rem;
+}
+.contact-right{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smoot
+}
+
+.contact-item{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+#Contact-us{
+    padding-top: 5rem;
+}
+
+.contact-right{
+    margin-left: 4rem;
+}
+
+/* footer */
+footer {
+    padding: 4rem 0;
+    background-color: #d5d5d5;
+    text-align: center;
+  }
+  
+  .footer-icons {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-icons a {
+    margin: 0 0.5rem;
+  }
+  
+  .footer-icons svg {
+    fill: #000000;
+  }
+  
+  .footer-icons a:hover svg {
+    fill: #000;
+  }
